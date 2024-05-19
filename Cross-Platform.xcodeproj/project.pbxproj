@@ -14,6 +14,12 @@
 		BA8AC0A32BFA46AE00945401 /* Cross_PlatformTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8AC0A22BFA46AE00945401 /* Cross_PlatformTests.swift */; };
 		BA8AC0AD2BFA46AE00945401 /* Cross_PlatformUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8AC0AC2BFA46AE00945401 /* Cross_PlatformUITests.swift */; };
 		BA8AC0AF2BFA46AE00945401 /* Cross_PlatformUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8AC0AE2BFA46AE00945401 /* Cross_PlatformUITestsLaunchTests.swift */; };
+		BA8AC0BE2BFA478C00945401 /* ArticleForIOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8AC0BD2BFA478C00945401 /* ArticleForIOS.swift */; };
+		BA8AC0C02BFA479E00945401 /* ArticleForMacOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8AC0BF2BFA479E00945401 /* ArticleForMacOS.swift */; };
+		BA8AC0C22BFA490200945401 /* ArticleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8AC0C12BFA490200945401 /* ArticleView.swift */; };
+		BA8AC0C62BFA4B5300945401 /* ArticlesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8AC0C52BFA4B5300945401 /* ArticlesListView.swift */; };
+		BA8AC0C82BFA4D6300945401 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8AC0C72BFA4D6300945401 /* TabBarView.swift */; };
+		BA8AC0CA2BFA4EC000945401 /* SideBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8AC0C92BFA4EC000945401 /* SideBarView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +51,12 @@
 		BA8AC0A82BFA46AE00945401 /* Cross-PlatformUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cross-PlatformUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA8AC0AC2BFA46AE00945401 /* Cross_PlatformUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cross_PlatformUITests.swift; sourceTree = "<group>"; };
 		BA8AC0AE2BFA46AE00945401 /* Cross_PlatformUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cross_PlatformUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BA8AC0BD2BFA478C00945401 /* ArticleForIOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ArticleForIOS.swift; path = ../../../../../../ArticleForIOS.swift; sourceTree = "<group>"; };
+		BA8AC0BF2BFA479E00945401 /* ArticleForMacOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ArticleForMacOS.swift; path = ../../../../../../ArticleForMacOS.swift; sourceTree = "<group>"; };
+		BA8AC0C12BFA490200945401 /* ArticleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ArticleView.swift; path = ../../../../../../ArticleView.swift; sourceTree = "<group>"; };
+		BA8AC0C52BFA4B5300945401 /* ArticlesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ArticlesListView.swift; path = ../../../../../../ArticlesListView.swift; sourceTree = "<group>"; };
+		BA8AC0C72BFA4D6300945401 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TabBarView.swift; path = ../../../../../../TabBarView.swift; sourceTree = "<group>"; };
+		BA8AC0C92BFA4EC000945401 /* SideBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SideBarView.swift; path = ../../../../../../SideBarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +87,7 @@
 		BA8AC0842BFA46AD00945401 = {
 			isa = PBXGroup;
 			children = (
+				BA8AC0BB2BFA471800945401 /* Shared */,
 				BA8AC08F2BFA46AD00945401 /* Cross-Platform */,
 				BA8AC0A12BFA46AE00945401 /* Cross-PlatformTests */,
 				BA8AC0AB2BFA46AE00945401 /* Cross-PlatformUITests */,
@@ -127,6 +140,27 @@
 				BA8AC0AE2BFA46AE00945401 /* Cross_PlatformUITestsLaunchTests.swift */,
 			);
 			path = "Cross-PlatformUITests";
+			sourceTree = "<group>";
+		};
+		BA8AC0BB2BFA471800945401 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				BA8AC0BC2BFA472100945401 /* Models */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		BA8AC0BC2BFA472100945401 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BA8AC0BD2BFA478C00945401 /* ArticleForIOS.swift */,
+				BA8AC0C12BFA490200945401 /* ArticleView.swift */,
+				BA8AC0C52BFA4B5300945401 /* ArticlesListView.swift */,
+				BA8AC0C72BFA4D6300945401 /* TabBarView.swift */,
+				BA8AC0C92BFA4EC000945401 /* SideBarView.swift */,
+				BA8AC0BF2BFA479E00945401 /* ArticleForMacOS.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,6 +294,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA8AC0932BFA46AD00945401 /* ContentView.swift in Sources */,
+				BA8AC0CA2BFA4EC000945401 /* SideBarView.swift in Sources */,
+				BA8AC0BE2BFA478C00945401 /* ArticleForIOS.swift in Sources */,
+				BA8AC0C82BFA4D6300945401 /* TabBarView.swift in Sources */,
+				BA8AC0C22BFA490200945401 /* ArticleView.swift in Sources */,
+				BA8AC0C62BFA4B5300945401 /* ArticlesListView.swift in Sources */,
+				BA8AC0C02BFA479E00945401 /* ArticleForMacOS.swift in Sources */,
 				BA8AC0912BFA46AD00945401 /* Cross_PlatformApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

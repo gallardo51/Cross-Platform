@@ -8,14 +8,23 @@
 import SwiftUI
 
 struct ContentView: View {
+#if os(iOS)
+    @Environment(\.horizontalSizeClass) var horizontalSizeClass: UserInterfaceSizeClass?
+#endif
+    
+    @ViewBuilder
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        NavigationView {
+#if os(iOS)
+            if horizontalSizeClass == .compact {
+                TabBarView()
+            } else {
+                SideBarView()
+            }
+#else
+            SideBarView()
+#endif
         }
-        .padding()
     }
 }
 
