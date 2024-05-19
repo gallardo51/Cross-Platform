@@ -8,10 +8,10 @@
 import SwiftUI
 
 struct ContentView: View {
+    
 #if os(iOS)
     @Environment(\.horizontalSizeClass) var horizontalSizeClass: UserInterfaceSizeClass?
 #endif
-    
     @ViewBuilder
     var body: some View {
         NavigationView {

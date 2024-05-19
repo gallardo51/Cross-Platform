@@ -14,8 +14,7 @@
 		BA8AC0A32BFA46AE00945401 /* Cross_PlatformTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8AC0A22BFA46AE00945401 /* Cross_PlatformTests.swift */; };
 		BA8AC0AD2BFA46AE00945401 /* Cross_PlatformUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8AC0AC2BFA46AE00945401 /* Cross_PlatformUITests.swift */; };
 		BA8AC0AF2BFA46AE00945401 /* Cross_PlatformUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8AC0AE2BFA46AE00945401 /* Cross_PlatformUITestsLaunchTests.swift */; };
-		BA8AC0BE2BFA478C00945401 /* ArticleForIOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8AC0BD2BFA478C00945401 /* ArticleForIOS.swift */; };
-		BA8AC0C02BFA479E00945401 /* ArticleForMacOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8AC0BF2BFA479E00945401 /* ArticleForMacOS.swift */; };
+		BA8AC0BE2BFA478C00945401 /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8AC0BD2BFA478C00945401 /* Article.swift */; };
 		BA8AC0C22BFA490200945401 /* ArticleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8AC0C12BFA490200945401 /* ArticleView.swift */; };
 		BA8AC0C62BFA4B5300945401 /* ArticlesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8AC0C52BFA4B5300945401 /* ArticlesListView.swift */; };
 		BA8AC0C82BFA4D6300945401 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8AC0C72BFA4D6300945401 /* TabBarView.swift */; };
@@ -30,7 +29,7 @@
 		BA8AC0F22BFA68E800945401 /* watchOS-Cross-Platform Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = BA8AC0CF2BFA68E600945401 /* watchOS-Cross-Platform Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		BA8AC0FD2BFA694100945401 /* ArticlesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8AC0C52BFA4B5300945401 /* ArticlesListView.swift */; };
 		BA8AC0FE2BFA694100945401 /* ArticleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8AC0C12BFA490200945401 /* ArticleView.swift */; };
-		BA8AC0FF2BFA694100945401 /* ArticleForIOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8AC0BD2BFA478C00945401 /* ArticleForIOS.swift */; };
+		BA8AC0FF2BFA694100945401 /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8AC0BD2BFA478C00945401 /* Article.swift */; };
 		BA8AC1002BFA6B1100945401 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8AC0C72BFA4D6300945401 /* TabBarView.swift */; };
 /* End PBXBuildFile section */
 
@@ -98,8 +97,7 @@
 		BA8AC0A82BFA46AE00945401 /* Cross-PlatformUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cross-PlatformUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA8AC0AC2BFA46AE00945401 /* Cross_PlatformUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cross_PlatformUITests.swift; sourceTree = "<group>"; };
 		BA8AC0AE2BFA46AE00945401 /* Cross_PlatformUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cross_PlatformUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		BA8AC0BD2BFA478C00945401 /* ArticleForIOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ArticleForIOS.swift; path = ../../../../../../ArticleForIOS.swift; sourceTree = "<group>"; };
-		BA8AC0BF2BFA479E00945401 /* ArticleForMacOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ArticleForMacOS.swift; path = ../../../../../../ArticleForMacOS.swift; sourceTree = "<group>"; };
+		BA8AC0BD2BFA478C00945401 /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Article.swift; path = ../../../../../../Article.swift; sourceTree = "<group>"; };
 		BA8AC0C12BFA490200945401 /* ArticleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ArticleView.swift; path = ../../../../../../ArticleView.swift; sourceTree = "<group>"; };
 		BA8AC0C52BFA4B5300945401 /* ArticlesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ArticlesListView.swift; path = ../../../../../../ArticlesListView.swift; sourceTree = "<group>"; };
 		BA8AC0C72BFA4D6300945401 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TabBarView.swift; path = ../../../../../../TabBarView.swift; sourceTree = "<group>"; };
@@ -237,12 +235,11 @@
 		BA8AC0BC2BFA472100945401 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				BA8AC0BD2BFA478C00945401 /* ArticleForIOS.swift */,
+				BA8AC0BD2BFA478C00945401 /* Article.swift */,
 				BA8AC0C12BFA490200945401 /* ArticleView.swift */,
 				BA8AC0C52BFA4B5300945401 /* ArticlesListView.swift */,
 				BA8AC0C72BFA4D6300945401 /* TabBarView.swift */,
 				BA8AC0C92BFA4EC000945401 /* SideBarView.swift */,
-				BA8AC0BF2BFA479E00945401 /* ArticleForMacOS.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -507,11 +504,10 @@
 			files = (
 				BA8AC0932BFA46AD00945401 /* ContentView.swift in Sources */,
 				BA8AC0CA2BFA4EC000945401 /* SideBarView.swift in Sources */,
-				BA8AC0BE2BFA478C00945401 /* ArticleForIOS.swift in Sources */,
+				BA8AC0BE2BFA478C00945401 /* Article.swift in Sources */,
 				BA8AC0C82BFA4D6300945401 /* TabBarView.swift in Sources */,
 				BA8AC0C22BFA490200945401 /* ArticleView.swift in Sources */,
 				BA8AC0C62BFA4B5300945401 /* ArticlesListView.swift in Sources */,
-				BA8AC0C02BFA479E00945401 /* ArticleForMacOS.swift in Sources */,
 				BA8AC0912BFA46AD00945401 /* Cross_PlatformApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -540,7 +536,7 @@
 				BA8AC0D42BFA68E600945401 /* ContentView.swift in Sources */,
 				BA8AC0FD2BFA694100945401 /* ArticlesListView.swift in Sources */,
 				BA8AC0FE2BFA694100945401 /* ArticleView.swift in Sources */,
-				BA8AC0FF2BFA694100945401 /* ArticleForIOS.swift in Sources */,
+				BA8AC0FF2BFA694100945401 /* Article.swift in Sources */,
 				BA8AC1002BFA6B1100945401 /* TabBarView.swift in Sources */,
 				BA8AC0D22BFA68E600945401 /* watchOS_Cross_PlatformApp.swift in Sources */,
 			);
