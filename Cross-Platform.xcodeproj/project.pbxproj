@@ -20,6 +20,18 @@
 		BA8AC0C62BFA4B5300945401 /* ArticlesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8AC0C52BFA4B5300945401 /* ArticlesListView.swift */; };
 		BA8AC0C82BFA4D6300945401 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8AC0C72BFA4D6300945401 /* TabBarView.swift */; };
 		BA8AC0CA2BFA4EC000945401 /* SideBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8AC0C92BFA4EC000945401 /* SideBarView.swift */; };
+		BA8AC0D22BFA68E600945401 /* watchOS_Cross_PlatformApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8AC0D12BFA68E600945401 /* watchOS_Cross_PlatformApp.swift */; };
+		BA8AC0D42BFA68E600945401 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8AC0D32BFA68E600945401 /* ContentView.swift */; };
+		BA8AC0D62BFA68E700945401 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA8AC0D52BFA68E700945401 /* Assets.xcassets */; };
+		BA8AC0D92BFA68E700945401 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA8AC0D82BFA68E700945401 /* Preview Assets.xcassets */; };
+		BA8AC0E32BFA68E800945401 /* watchOS_Cross_Platform_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8AC0E22BFA68E800945401 /* watchOS_Cross_Platform_Watch_AppTests.swift */; };
+		BA8AC0ED2BFA68E800945401 /* watchOS_Cross_Platform_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8AC0EC2BFA68E800945401 /* watchOS_Cross_Platform_Watch_AppUITests.swift */; };
+		BA8AC0EF2BFA68E800945401 /* watchOS_Cross_Platform_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8AC0EE2BFA68E800945401 /* watchOS_Cross_Platform_Watch_AppUITestsLaunchTests.swift */; };
+		BA8AC0F22BFA68E800945401 /* watchOS-Cross-Platform Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = BA8AC0CF2BFA68E600945401 /* watchOS-Cross-Platform Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		BA8AC0FD2BFA694100945401 /* ArticlesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8AC0C52BFA4B5300945401 /* ArticlesListView.swift */; };
+		BA8AC0FE2BFA694100945401 /* ArticleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8AC0C12BFA490200945401 /* ArticleView.swift */; };
+		BA8AC0FF2BFA694100945401 /* ArticleForIOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8AC0BD2BFA478C00945401 /* ArticleForIOS.swift */; };
+		BA8AC1002BFA6B1100945401 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8AC0C72BFA4D6300945401 /* TabBarView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +49,42 @@
 			remoteGlobalIDString = BA8AC08C2BFA46AD00945401;
 			remoteInfo = "Cross-Platform";
 		};
+		BA8AC0DF2BFA68E800945401 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA8AC0852BFA46AD00945401 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA8AC0CE2BFA68E600945401;
+			remoteInfo = "watchOS-Cross-Platform Watch App";
+		};
+		BA8AC0E92BFA68E800945401 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA8AC0852BFA46AD00945401 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA8AC0CE2BFA68E600945401;
+			remoteInfo = "watchOS-Cross-Platform Watch App";
+		};
+		BA8AC0F02BFA68E800945401 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA8AC0852BFA46AD00945401 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA8AC0CE2BFA68E600945401;
+			remoteInfo = "watchOS-Cross-Platform Watch App";
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BA8AC0F62BFA68E800945401 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				BA8AC0F22BFA68E800945401 /* watchOS-Cross-Platform Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		BA8AC08D2BFA46AD00945401 /* Cross-Platform.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cross-Platform.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -57,6 +104,16 @@
 		BA8AC0C52BFA4B5300945401 /* ArticlesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ArticlesListView.swift; path = ../../../../../../ArticlesListView.swift; sourceTree = "<group>"; };
 		BA8AC0C72BFA4D6300945401 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TabBarView.swift; path = ../../../../../../TabBarView.swift; sourceTree = "<group>"; };
 		BA8AC0C92BFA4EC000945401 /* SideBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SideBarView.swift; path = ../../../../../../SideBarView.swift; sourceTree = "<group>"; };
+		BA8AC0CF2BFA68E600945401 /* watchOS-Cross-Platform Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "watchOS-Cross-Platform Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA8AC0D12BFA68E600945401 /* watchOS_Cross_PlatformApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = watchOS_Cross_PlatformApp.swift; sourceTree = "<group>"; };
+		BA8AC0D32BFA68E600945401 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BA8AC0D52BFA68E700945401 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BA8AC0D82BFA68E700945401 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BA8AC0DE2BFA68E800945401 /* watchOS-Cross-Platform Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "watchOS-Cross-Platform Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA8AC0E22BFA68E800945401 /* watchOS_Cross_Platform_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = watchOS_Cross_Platform_Watch_AppTests.swift; sourceTree = "<group>"; };
+		BA8AC0E82BFA68E800945401 /* watchOS-Cross-Platform Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "watchOS-Cross-Platform Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA8AC0EC2BFA68E800945401 /* watchOS_Cross_Platform_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = watchOS_Cross_Platform_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		BA8AC0EE2BFA68E800945401 /* watchOS_Cross_Platform_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = watchOS_Cross_Platform_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +138,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BA8AC0CC2BFA68E600945401 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA8AC0DB2BFA68E800945401 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA8AC0E52BFA68E800945401 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -91,6 +169,9 @@
 				BA8AC08F2BFA46AD00945401 /* Cross-Platform */,
 				BA8AC0A12BFA46AE00945401 /* Cross-PlatformTests */,
 				BA8AC0AB2BFA46AE00945401 /* Cross-PlatformUITests */,
+				BA8AC0D02BFA68E600945401 /* watchOS-Cross-Platform Watch App */,
+				BA8AC0E12BFA68E800945401 /* watchOS-Cross-Platform Watch AppTests */,
+				BA8AC0EB2BFA68E800945401 /* watchOS-Cross-Platform Watch AppUITests */,
 				BA8AC08E2BFA46AD00945401 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -101,6 +182,9 @@
 				BA8AC08D2BFA46AD00945401 /* Cross-Platform.app */,
 				BA8AC09E2BFA46AE00945401 /* Cross-PlatformTests.xctest */,
 				BA8AC0A82BFA46AE00945401 /* Cross-PlatformUITests.xctest */,
+				BA8AC0CF2BFA68E600945401 /* watchOS-Cross-Platform Watch App.app */,
+				BA8AC0DE2BFA68E800945401 /* watchOS-Cross-Platform Watch AppTests.xctest */,
+				BA8AC0E82BFA68E800945401 /* watchOS-Cross-Platform Watch AppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -163,6 +247,42 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
+		BA8AC0D02BFA68E600945401 /* watchOS-Cross-Platform Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				BA8AC0D12BFA68E600945401 /* watchOS_Cross_PlatformApp.swift */,
+				BA8AC0D32BFA68E600945401 /* ContentView.swift */,
+				BA8AC0D52BFA68E700945401 /* Assets.xcassets */,
+				BA8AC0D72BFA68E700945401 /* Preview Content */,
+			);
+			path = "watchOS-Cross-Platform Watch App";
+			sourceTree = "<group>";
+		};
+		BA8AC0D72BFA68E700945401 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BA8AC0D82BFA68E700945401 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BA8AC0E12BFA68E800945401 /* watchOS-Cross-Platform Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				BA8AC0E22BFA68E800945401 /* watchOS_Cross_Platform_Watch_AppTests.swift */,
+			);
+			path = "watchOS-Cross-Platform Watch AppTests";
+			sourceTree = "<group>";
+		};
+		BA8AC0EB2BFA68E800945401 /* watchOS-Cross-Platform Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BA8AC0EC2BFA68E800945401 /* watchOS_Cross_Platform_Watch_AppUITests.swift */,
+				BA8AC0EE2BFA68E800945401 /* watchOS_Cross_Platform_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "watchOS-Cross-Platform Watch AppUITests";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -173,10 +293,12 @@
 				BA8AC0892BFA46AD00945401 /* Sources */,
 				BA8AC08A2BFA46AD00945401 /* Frameworks */,
 				BA8AC08B2BFA46AD00945401 /* Resources */,
+				BA8AC0F62BFA68E800945401 /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				BA8AC0F12BFA68E800945401 /* PBXTargetDependency */,
 			);
 			name = "Cross-Platform";
 			productName = "Cross-Platform";
@@ -219,6 +341,59 @@
 			productReference = BA8AC0A82BFA46AE00945401 /* Cross-PlatformUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		BA8AC0CE2BFA68E600945401 /* watchOS-Cross-Platform Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA8AC0F32BFA68E800945401 /* Build configuration list for PBXNativeTarget "watchOS-Cross-Platform Watch App" */;
+			buildPhases = (
+				BA8AC0CB2BFA68E600945401 /* Sources */,
+				BA8AC0CC2BFA68E600945401 /* Frameworks */,
+				BA8AC0CD2BFA68E600945401 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "watchOS-Cross-Platform Watch App";
+			productName = "watchOS-Cross-Platform Watch App";
+			productReference = BA8AC0CF2BFA68E600945401 /* watchOS-Cross-Platform Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BA8AC0DD2BFA68E800945401 /* watchOS-Cross-Platform Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA8AC0F72BFA68E800945401 /* Build configuration list for PBXNativeTarget "watchOS-Cross-Platform Watch AppTests" */;
+			buildPhases = (
+				BA8AC0DA2BFA68E800945401 /* Sources */,
+				BA8AC0DB2BFA68E800945401 /* Frameworks */,
+				BA8AC0DC2BFA68E800945401 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA8AC0E02BFA68E800945401 /* PBXTargetDependency */,
+			);
+			name = "watchOS-Cross-Platform Watch AppTests";
+			productName = "watchOS-Cross-Platform Watch AppTests";
+			productReference = BA8AC0DE2BFA68E800945401 /* watchOS-Cross-Platform Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BA8AC0E72BFA68E800945401 /* watchOS-Cross-Platform Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA8AC0FA2BFA68E800945401 /* Build configuration list for PBXNativeTarget "watchOS-Cross-Platform Watch AppUITests" */;
+			buildPhases = (
+				BA8AC0E42BFA68E800945401 /* Sources */,
+				BA8AC0E52BFA68E800945401 /* Frameworks */,
+				BA8AC0E62BFA68E800945401 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA8AC0EA2BFA68E800945401 /* PBXTargetDependency */,
+			);
+			name = "watchOS-Cross-Platform Watch AppUITests";
+			productName = "watchOS-Cross-Platform Watch AppUITests";
+			productReference = BA8AC0E82BFA68E800945401 /* watchOS-Cross-Platform Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -240,6 +415,17 @@
 						CreatedOnToolsVersion = 15.3;
 						TestTargetID = BA8AC08C2BFA46AD00945401;
 					};
+					BA8AC0CE2BFA68E600945401 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					BA8AC0DD2BFA68E800945401 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = BA8AC0CE2BFA68E600945401;
+					};
+					BA8AC0E72BFA68E800945401 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = BA8AC0CE2BFA68E600945401;
+					};
 				};
 			};
 			buildConfigurationList = BA8AC0882BFA46AD00945401 /* Build configuration list for PBXProject "Cross-Platform" */;
@@ -258,6 +444,9 @@
 				BA8AC08C2BFA46AD00945401 /* Cross-Platform */,
 				BA8AC09D2BFA46AE00945401 /* Cross-PlatformTests */,
 				BA8AC0A72BFA46AE00945401 /* Cross-PlatformUITests */,
+				BA8AC0CE2BFA68E600945401 /* watchOS-Cross-Platform Watch App */,
+				BA8AC0DD2BFA68E800945401 /* watchOS-Cross-Platform Watch AppTests */,
+				BA8AC0E72BFA68E800945401 /* watchOS-Cross-Platform Watch AppUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -280,6 +469,29 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		BA8AC0A62BFA46AE00945401 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA8AC0CD2BFA68E600945401 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA8AC0D92BFA68E700945401 /* Preview Assets.xcassets in Resources */,
+				BA8AC0D62BFA68E700945401 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA8AC0DC2BFA68E800945401 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA8AC0E62BFA68E800945401 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -321,6 +533,36 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BA8AC0CB2BFA68E600945401 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA8AC0D42BFA68E600945401 /* ContentView.swift in Sources */,
+				BA8AC0FD2BFA694100945401 /* ArticlesListView.swift in Sources */,
+				BA8AC0FE2BFA694100945401 /* ArticleView.swift in Sources */,
+				BA8AC0FF2BFA694100945401 /* ArticleForIOS.swift in Sources */,
+				BA8AC1002BFA6B1100945401 /* TabBarView.swift in Sources */,
+				BA8AC0D22BFA68E600945401 /* watchOS_Cross_PlatformApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA8AC0DA2BFA68E800945401 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA8AC0E32BFA68E800945401 /* watchOS_Cross_Platform_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA8AC0E42BFA68E800945401 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA8AC0EF2BFA68E800945401 /* watchOS_Cross_Platform_Watch_AppUITestsLaunchTests.swift in Sources */,
+				BA8AC0ED2BFA68E800945401 /* watchOS_Cross_Platform_Watch_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -333,6 +575,21 @@
 			isa = PBXTargetDependency;
 			target = BA8AC08C2BFA46AD00945401 /* Cross-Platform */;
 			targetProxy = BA8AC0A92BFA46AE00945401 /* PBXContainerItemProxy */;
+		};
+		BA8AC0E02BFA68E800945401 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA8AC0CE2BFA68E600945401 /* watchOS-Cross-Platform Watch App */;
+			targetProxy = BA8AC0DF2BFA68E800945401 /* PBXContainerItemProxy */;
+		};
+		BA8AC0EA2BFA68E800945401 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA8AC0CE2BFA68E600945401 /* watchOS-Cross-Platform Watch App */;
+			targetProxy = BA8AC0E92BFA68E800945401 /* PBXContainerItemProxy */;
+		};
+		BA8AC0F12BFA68E800945401 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA8AC0CE2BFA68E600945401 /* watchOS-Cross-Platform Watch App */;
+			targetProxy = BA8AC0F02BFA68E800945401 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -454,6 +711,7 @@
 		BA8AC0B32BFA46AE00945401 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "Cross-Platform/Cross_Platform.entitlements";
@@ -492,6 +750,7 @@
 		BA8AC0B42BFA46AE00945401 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "Cross-Platform/Cross_Platform.entitlements";
@@ -617,6 +876,151 @@
 			};
 			name = Release;
 		};
+		BA8AC0F42BFA68E800945401 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"watchOS-Cross-Platform Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = LBC2FW8GZY;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "watchOS-Cross-Platform";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "ru.swiftbook.Cross-Platform";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ru.swiftbook.Cross-Platform.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Debug;
+		};
+		BA8AC0F52BFA68E800945401 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"watchOS-Cross-Platform Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = LBC2FW8GZY;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "watchOS-Cross-Platform";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "ru.swiftbook.Cross-Platform";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ru.swiftbook.Cross-Platform.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Release;
+		};
+		BA8AC0F82BFA68E800945401 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LBC2FW8GZY;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ru.swiftbook.watchOS-Cross-Platform-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/watchOS-Cross-Platform Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/watchOS-Cross-Platform Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Debug;
+		};
+		BA8AC0F92BFA68E800945401 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LBC2FW8GZY;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ru.swiftbook.watchOS-Cross-Platform-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/watchOS-Cross-Platform Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/watchOS-Cross-Platform Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Release;
+		};
+		BA8AC0FB2BFA68E800945401 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LBC2FW8GZY;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ru.swiftbook.watchOS-Cross-Platform-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "watchOS-Cross-Platform Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Debug;
+		};
+		BA8AC0FC2BFA68E800945401 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LBC2FW8GZY;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ru.swiftbook.watchOS-Cross-Platform-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "watchOS-Cross-Platform Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -652,6 +1056,33 @@
 			buildConfigurations = (
 				BA8AC0B92BFA46AE00945401 /* Debug */,
 				BA8AC0BA2BFA46AE00945401 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA8AC0F32BFA68E800945401 /* Build configuration list for PBXNativeTarget "watchOS-Cross-Platform Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA8AC0F42BFA68E800945401 /* Debug */,
+				BA8AC0F52BFA68E800945401 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA8AC0F72BFA68E800945401 /* Build configuration list for PBXNativeTarget "watchOS-Cross-Platform Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA8AC0F82BFA68E800945401 /* Debug */,
+				BA8AC0F92BFA68E800945401 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA8AC0FA2BFA68E800945401 /* Build configuration list for PBXNativeTarget "watchOS-Cross-Platform Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA8AC0FB2BFA68E800945401 /* Debug */,
+				BA8AC0FC2BFA68E800945401 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
